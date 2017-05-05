@@ -12,7 +12,7 @@ fluidPage(
     
     sidebarPanel(
       
-      selectInput("choice", label="Choose a Municipality:", 
+      selectInput("choice", label="Choose a Dependent Variable:", 
                   choices = c("Migration", "Deaths", "KLA Casualties",
                               "Bombings", "10 Day Sum of Bombings"))) ,
     
